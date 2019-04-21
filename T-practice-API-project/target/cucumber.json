@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "verify information about logged user",
+        "description": "",
+        "id": "api-testing-with-bookit;verify-information-about-logged-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2576497591,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I logged Bookit api using \"sbirdbj@fc2.com\" and \"asenorval\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sbirdbj@fc2.com\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"asenorval\"",
+                  "offset": 48
+                }
+              ],
+              "location": "APIStepDefs.i_logged_Bookit_api_using_and(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37378,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I get the current user information from api",
+            "match": {
+              "location": "APIStepDefs.i_get_the_current_user_information_from_api()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10579,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the information about current user should be returned",
+            "match": {
+              "location": "APIStepDefs.the_information_about_current_user_should_be_returned()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@chopa"
+          }
+        ]
+      }
+    ],
+    "name": "API testing with bookit",
+    "description": "",
+    "id": "api-testing-with-bookit",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/APIrequest.feature",
+    "tags": []
+  }
+]
